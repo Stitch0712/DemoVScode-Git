@@ -1,0 +1,3 @@
+D:/Program/VSCODE/DemoVScode-Git/build/CMakeFiles/test.dir
+D:/Program/VSCODE/DemoVScode-Git/build/CMakeFiles/ALL_BUILD.dir
+D:/Program/VSCODE/DemoVScode-Git/build/CMakeFiles/ZERO_CHECK.dir

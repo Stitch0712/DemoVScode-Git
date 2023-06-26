@@ -1,0 +1,10 @@
+^D:\PROGRAM\VSCODE\DEMOVSCODE-GIT\BUILD\CMAKEFILES\9920D504FC9D2D748C405687539E2B52\GENERATE.STAMP.RULE
+setlocal
+D:\VS2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/Program/VSCODE/DemoVScode-Git -BD:/Program/VSCODE/DemoVScode-Git/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Program/VSCODE/DemoVScode-Git/build/DemoVScode-Git.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

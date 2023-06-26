@@ -1,0 +1,10 @@
+^D:\PROGRAM\VSCODE\DEMOVSCODE-GIT\CMAKELISTS.TXT
+setlocal
+D:\VS2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/Program/VSCODE/DemoVScode-Git -BD:/Program/VSCODE/DemoVScode-Git/build --check-stamp-file D:/Program/VSCODE/DemoVScode-Git/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
